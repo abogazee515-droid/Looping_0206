@@ -69,4 +69,6 @@ cout << "Last Random Number while = " << x << endl << endl;
 
         status = " faild \n";
     }
+
+     cout << " staus =" << status << " and the Avrage = " << Avrage << endl;
 }
