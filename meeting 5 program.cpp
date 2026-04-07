@@ -15,4 +15,21 @@ int main()
     }
     cout << endl;
 
+//to get a random sequence of numbers different
+srand(time(0));
+
+
+//loop with while 
+cout << "While Loop" << endl;
+
+x = 1 + rand() % 10;
+while (x <= 5)
+{
+
+    cout << "Random Number = " << x << endl;
+    x = rand() % 10;
+
+}
+cout << "Last Random Number while = " << x << endl << endl;
+
     
