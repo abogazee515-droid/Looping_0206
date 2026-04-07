@@ -47,4 +47,21 @@ cout << "Last Random Number while = " << x << endl << endl;
 
 }
 
-    
+//Gread file 
+    #include <iostream>
+using namespace std;
+
+int main()
+{
+    float MAthGrade, EngilishGrade, Avrage;
+
+    cout << "Enter Math Grade: ";
+    cin >> MAthGrade;
+
+    cout << "Enter English Grade: ";
+    cin >> EngilishGrade;
+
+    Avrage = (MAthGrade + EngilishGrade) / 2;
+
+    cout << "Average = " << Avrage << endl;
+}
