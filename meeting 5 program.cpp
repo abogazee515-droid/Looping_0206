@@ -48,20 +48,25 @@ cout << "Last Random Number while = " << x << endl << endl;
 }
 
 //Gread file 
-    #include <iostream>
-using namespace std;
-
-int main()
+   int main()
 {
-    float MAthGrade, EngilishGrade, Avrage;
+    
+    float MAthGrade,EngilishGrade, Avrage;
 
-    cout << "Enter Math Grade: ";
-    cin >> MAthGrade;
+    string status;
 
-    cout << "Enter English Grade: ";
-    cin >> EngilishGrade;
+    cout << "Ether Math Value "; cin >> MAthGrade;
+
+    cout << " Ether Engilsh Grade "; cin >> EngilishGrade;
 
     Avrage = (MAthGrade + EngilishGrade) / 2;
 
-    cout << "Average = " << Avrage << endl;
+    if (!(Avrage) < 60) {
+
+        status = " pass \n ";
+    }
+    else {
+
+        status = " faild \n";
+    }
 }
