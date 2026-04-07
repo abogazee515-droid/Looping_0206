@@ -183,8 +183,18 @@ void SelectMajor() {
     }
 }
 
+void OutPut() {
+
+    cout << " \n=========== Selection Result =========== \n";
+    cout << " coise of Major :" << MajorNAme << endl;
+    cout << " Status Quota :" << quotastatus << endl;
+
+    cout << " _____________________________________________";
+}
+
 int main()
 {
     input();
     SelectMajor();
+    OutPut();
 }
