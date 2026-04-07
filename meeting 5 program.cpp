@@ -158,7 +158,33 @@ void input() {
     cin >> MajorCode;
 }
 
+void SelectMajor() {
+
+    switch (MajorCode) {
+
+    case 1:
+        MajorNAme = " information Tecnology ";
+        quotastatus = "Available 15 seate ";
+        break;
+
+    case 2:
+        MajorNAme = " Electrical Engineering ";
+        quotastatus = " Quota full";
+        break;
+
+    case 3:
+        MajorNAme = " infomation system ";
+        quotastatus = " Available 5 seate ";
+        break;
+
+    default:
+        MajorNAme = " No Major ";
+        quotastatus = " Error : The Major Code Is not Valid  ";
+    }
+}
+
 int main()
 {
     input();
+    SelectMajor();
 }
