@@ -32,4 +32,19 @@ while (x <= 5)
 }
 cout << "Last Random Number while = " << x << endl << endl;
 
+    cout << "Repitition  Do ...While" << endl;
+    x = 1 + rand() % 10;
+
+
+    do
+    {
+        cout << "Random Number =" << x << endl;
+        x = rand() % 10;
+    } while (x <= 5);
+
+    cout << "The Last Random Number do-while = " << x << endl << endl;
+
+
+}
+
     
