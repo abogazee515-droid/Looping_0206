@@ -74,26 +74,24 @@ cout << "Last Random Number while = " << x << endl << endl;
 }
 
 //Grade file 2
-#include <iostream>
-using namespace std;
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    float MAthGrade, EngilishGrade, Avrage;
+    float mathGrade, englishGrade, average;
     string status;
 
     cout << "Enter Math Grade: ";
-    cin >> MAthGrade;
+    cin >> mathGrade;
 
     cout << "Enter English Grade: ";
-    cin >> EngilishGrade;
+    cin >> englishGrade;
 
-    Avrage = (MAthGrade + EngilishGrade) / 2;
+    average = (mathGrade + englishGrade) / 2;
 
-    if ((Avrage > 60) || (MAthGrade >= 70))
+    if ((average > 60) || (mathGrade >= 70))
     {
         status = "Pass";
     }
@@ -102,6 +100,7 @@ int main()
         status = "Fail";
     }
 
-    cout << "Status = " << status << endl;
-    cout << "Average = " << Avrage << endl;
+    cout << "\n===== Result =====" << endl;
+    cout << "Average = " << average << endl;
+    cout << "Status  = " << status << endl;
 }
