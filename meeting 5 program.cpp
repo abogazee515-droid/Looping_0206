@@ -103,4 +103,24 @@ int main()
     cout << "\n===== Result =====" << endl;
     cout << "Average = " << average << endl;
     cout << "Status  = " << status << endl;
+} 
+
+//Grade file 3
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float MAthGrade, EngilishGrade, Avrage;
+
+    cout << "Enter Math Grade: ";
+    cin >> MAthGrade;
+
+    cout << "Enter English Grade: ";
+    cin >> EngilishGrade;
+
+    Avrage = (MAthGrade + EngilishGrade) / 2;
+
+    cout << "Average = " << Avrage << endl;
 }
