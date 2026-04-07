@@ -136,3 +136,29 @@ int main()
     cout << "Average = " << average << endl;
     cout << "Status  = " << status << endl;
 }
+
+//UniversityMajorSelectionSystem
+
+#include <iostream>
+using namespace std;
+
+int MajorCode;
+string MajorNAme, quotastatus;
+
+void input() {
+
+    cout << " ===== UNIVERSITY MAJOR REGISTRANTION ====== " << endl;
+
+    cout << " 1. information tecnology " << endl;
+    cout << " 2. Electrical Engineering " << endl;
+    cout << " 3. information system " << endl;
+    cout << " ______________________________________________\n";
+
+    cout << " Enter Major Code (1-3):"; 
+    cin >> MajorCode;
+}
+
+int main()
+{
+    input();
+}
