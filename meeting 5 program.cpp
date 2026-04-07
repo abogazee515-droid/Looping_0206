@@ -113,6 +113,7 @@ using namespace std;
 int main()
 {
     float MAthGrade, EngilishGrade, Avrage;
+    string status;
 
     cout << "Enter Math Grade: ";
     cin >> MAthGrade;
@@ -122,5 +123,15 @@ int main()
 
     Avrage = (MAthGrade + EngilishGrade) / 2;
 
+    if ((Avrage > 60) && (MAthGrade >= 70))
+    {
+        status = "Pass";
+    }
+    else
+    {
+        status = "Fail";
+    }
+
+    cout << "Status = " << status << endl;
     cout << "Average = " << Avrage << endl;
 }
